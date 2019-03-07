@@ -1,4 +1,4 @@
-This will be a website resume website. README = wiki b/c I have goldfish brain.
+This will be a website resume website. README = wiki b/c I have goldfish brain, and I'm poor :(.
 
 Useful links:
 * Readme cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
