@@ -7,10 +7,12 @@ Useful links:
 # Design Questions:
 * Need app-store (ngRx): TBD.
 * Wireframes/Workflows needed?: Definitely.
+* Resume Tab, Homepage Tab, Get to really know me tab
 
 #### Updates:
-##### 2019-03-06:
+##### March 2019:
 Added routing and feature modules with lazy-loading children.
+Added Home Page wireframes
 
 Next Up: 
-Wireframes
+Slideshow and NavBar Component.
