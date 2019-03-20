@@ -16,8 +16,9 @@ Color Scheme:
 
 #### Updates:
 ##### March 2019:
-Added routing and feature modules with lazy-loading children.
-Added Home Page wireframes
+* Added routing and feature modules with lazy-loading children.
+* Added Home Page wireframes
+* Added Pictures
 
 Next Up: 
 Slideshow and NavBar Component.
