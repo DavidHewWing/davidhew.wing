@@ -9,6 +9,11 @@ Useful links:
 * Wireframes/Workflows needed?: Definitely.
 * Resume Tab, Homepage Tab, Get to really know me tab
 
+Color Scheme:
+* Background: White
+* Text-color: 247ba0
+* Additionals: 247ba0-70c1b3-b2dbbf-f3ffbd-ff1654
+
 #### Updates:
 ##### March 2019:
 Added routing and feature modules with lazy-loading children.
