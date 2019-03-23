@@ -3,6 +3,41 @@
     padding: 0;
 }
 
+.card-container {
+    top: 64px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
 .image {
     width: 100%;
+    height: auto;
+    opacity: 0.95;
+}
+
+.subtitle {
+    font-size: 2vw;
+    position: absolute;
+    top: 44%;
+    opacity: 0.75;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 4vw;
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Mukta', sans-serif;
+}
+.title:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 88%;
+    padding-top: 0.1vw;
+    border-bottom: 0.4vw solid;
 }
