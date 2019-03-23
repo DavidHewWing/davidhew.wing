@@ -19,6 +19,7 @@ Color Scheme:
 * Added routing and feature modules with lazy-loading children.
 * Added Home Page wireframes
 * Added Pictures
+* Finished Home page banner/slide show
 
 Next Up: 
-Slideshow and NavBar Component.
+Homepage student-profile.
