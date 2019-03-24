@@ -20,6 +20,7 @@ Color Scheme:
 * Added Home Page wireframes
 * Added Pictures
 * Finished Home page banner/slide show
+* Added a home-page profile
 
 Next Up: 
-Homepage student-profile.
+Fix the mobile layout and fixed font design
