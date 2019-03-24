@@ -1,9 +1,9 @@
 <div class="card-container">
-    <img class="image" src="../../../assets/img/smiling-parliament.jpg" alt="oops">
-    <div class="subtitle text-color-header">
+    <img class="image" src="../../../assets/img/smiling-parliament.jpg" (load)="showText()" alt="oops">
+    <div *ngIf="displayText" class="subtitle text-color-header">
         <i>Nice to meet you, I'm</i>
     </div>
-    <div class="title text-color-header">
+    <div *ngIf="displayText" class="title text-color-header">
         <strong>David Hew-wing</strong>
     </div>
 </div>

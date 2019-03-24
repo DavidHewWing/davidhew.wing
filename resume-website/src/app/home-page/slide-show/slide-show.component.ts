@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideShowComponent implements OnInit {
 
+  displayText = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showText() {
+    this.displayText = true;
   }
 
 }

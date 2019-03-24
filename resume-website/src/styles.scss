@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+// html {
+//     overflow-y: scroll;    
+//   }
+
 body {
     margin: 0px;
     font-family: 'Karla', sans-serif;
@@ -8,4 +12,14 @@ body {
 
 .text-color-header {
     color: #E0DDF7;
+}
+
+// #875053;
+// 7E7F9A
+.home-page-header{
+    color: #004577;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
 }
