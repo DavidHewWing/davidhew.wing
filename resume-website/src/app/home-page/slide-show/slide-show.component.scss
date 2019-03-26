@@ -14,12 +14,13 @@
     width: 100%;
     height: auto;
     opacity: 0.95;
+    min-width: 1280px;
 }
 
 .subtitle {
     font-size: 2vw;
     position: absolute;
-    top: 45%;
+    top: 44%;
     opacity: 0.75;
     left: 55%;
     transform: translate(-50%, -50%);
@@ -41,3 +42,10 @@
     padding-top: 0.1vw;
     border-bottom: 0.4vw solid;
 }
+
+@media screen and (max-width: 600px) { /* Specific to this particular image */
+    .card-container {
+        top: 0;
+    }
+
+  }
