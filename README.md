@@ -24,5 +24,5 @@ Color Scheme:
 * Formatted toolbar for mobile use
 
 Next Up: 
-Fix the mobile layout for the homepage
+Fix the mobile layout for the homepage (picture)
 
