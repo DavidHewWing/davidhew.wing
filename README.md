@@ -21,6 +21,8 @@ Color Scheme:
 * Added Pictures
 * Finished Home page banner/slide show
 * Added a home-page profile
+* Formatted toolbar for mobile use
 
 Next Up: 
-Fix the mobile layout and fixed font design
+Fix the mobile layout for the homepage
+
