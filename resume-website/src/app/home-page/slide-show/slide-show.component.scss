@@ -47,11 +47,22 @@
     .card-container {
         top: 0;
     }
+
+    .image-container {
+        max-width: 600px;
+        overflow: hidden;
+        text-indent: -300px;
+    }
+
+    .image {
+        filter: brightness(50%);
+    }
+
     .subtitle {
         top: 30%;
         left: 50%;
-        font-size: 13vw;
-        width: 100vw;
+        font-size: 12vw;
+        width: 90vw;
     }
     .title {
         margin: 0;
@@ -59,6 +70,7 @@
         left: 50%;
         width:100vw;
         font-size: 20vw;
+        line-height: 12.5vh;
     }
 
   }
