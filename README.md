@@ -22,6 +22,7 @@ Color Scheme:
 * Finished Home page banner/slide show
 * Added a home-page profile
 * Formatted home-page and toolbar for mobile use
+* Added Home-Page Experience Component
 
 Next Up: 
-Experience Component
+Stuff I know component
