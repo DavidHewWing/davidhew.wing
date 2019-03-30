@@ -23,6 +23,7 @@ Color Scheme:
 * Added a home-page profile
 * Formatted home-page and toolbar for mobile use
 * Added Home-Page Experience Component
+* Added Home-Page Stuff I know
 
 Next Up: 
-Stuff I know component
+Contact me links and NavBar set-up.
