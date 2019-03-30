@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-knowledge',
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class KnowledgeComponent implements OnInit {
 
-
+  divWidth = 0;
   photos = [
     '../../../assets/img/angular.svg',
     '../../../assets/img/ngrx.svg',
@@ -21,9 +21,19 @@ export class KnowledgeComponent implements OnInit {
     '../../../assets/img/python.svg',
   ];
 
+  @ViewChild('parentDiv') parentDiv: ElementRef;
+  @HostListener('window:resize') onResize() {
+    if (this.parentDiv) {
+      this.divWidth = this.parentDiv.nativeElement.clientWidth;
+    }
+  }
+
   constructor() { }
 
   ngOnInit() {
+    if (this.parentDiv) {
+      this.divWidth = this.parentDiv.nativeElement.clientWidth;
+    }
   }
 
 }

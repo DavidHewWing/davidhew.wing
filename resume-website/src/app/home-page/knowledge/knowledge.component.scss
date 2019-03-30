@@ -2,7 +2,6 @@
     padding: 0;
 }
 
-
 .image {
     margin-right: 10px;
     width: 50px;
@@ -12,6 +11,8 @@
 
 .knowledge-subtitle{
     padding-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .list-container {
@@ -25,4 +26,15 @@
     padding-top: 64px;
     padding-bottom: 64px;
     text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 90vw;
+    }
+
+    button {
+        width: 90vw;
+        font-size: 18px;
+    }
 }

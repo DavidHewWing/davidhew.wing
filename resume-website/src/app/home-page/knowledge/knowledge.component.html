@@ -1,15 +1,29 @@
 <div class="knowledge-container">
     <div class="home-page-header">
-        <h1>Notable Things I Know.</h1>
+        <h1>Stuff I Know.</h1>
     </div>
     <div class="knowledge-subtitle">
         <p>
             If you want to have a full list of what I know check-out my resume!
         </p>
     </div>
-    <div class="list-container" fxLayout="row" fxLayoutAlign="center center">
-        <div *ngFor="let photo of photos">
-            <img [src]="photo" class="image">
-      </div>
+    <div #parentDiv>
+        <div *ngIf="divWidth > 600" class="list-container" fxLayout="row" fxLayoutAlign="center center">
+            <div *ngFor="let photo of photos">
+                <img [src]="photo" class="image">
+            </div>
+        </div>
+        <div *ngIf="divWidth <= 600" fxLayout="column" fxLayoutAlign="center center" class="stack-container">
+            <div fxLayout="row" fxLayoutAlign="center center">
+                <div *ngFor="let photo of photos | slice:0:4">
+                    <img [src]="photo" class="image">
+                </div>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="center center">
+                <div *ngFor="let photo of photos | slice:4:8">
+                    <img [src]="photo" class="image">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
