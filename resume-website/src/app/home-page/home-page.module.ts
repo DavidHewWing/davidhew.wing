@@ -9,9 +9,10 @@ import { MaterialModule } from 'src/presentation/material-module';
 import { ProfileComponent } from './profile/profile.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [SlideShowComponent, HomePageComponent, ProfileComponent, ExperienceComponent, KnowledgeComponent],
+  declarations: [SlideShowComponent, HomePageComponent, ProfileComponent, ExperienceComponent, KnowledgeComponent, ContactComponent],
   imports: [
     MaterialModule,
     CommonModule,

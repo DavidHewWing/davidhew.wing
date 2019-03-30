@@ -23,18 +23,7 @@
 
 .knowledge-container {
     background-color: #E6E6E9;
-    padding-top: 64px;
+    padding-top: 48px;
     padding-bottom: 64px;
     text-align:center;
-}
-
-@media screen and (max-width: 600px) {
-    .card{
-        width: 90vw;
-    }
-
-    button {
-        width: 90vw;
-        font-size: 18px;
-    }
 }
