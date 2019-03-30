@@ -2,4 +2,22 @@
     padding-top: 48px;
     padding-bottom: 48px;
     text-align: center;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.images-container {
+    padding-top: 24px;
+}
+
+.images-container img {
+    width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 300px) {
+    .images-container img {
+        width: 90vw;
+        height: auto;
+    }
 }
