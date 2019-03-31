@@ -24,6 +24,7 @@ Color Scheme:
 * Formatted home-page and toolbar for mobile use
 * Added Home-Page Experience Component
 * Added Home-Page Stuff I know
+* Added Links and NavBar set-up
 
 Next Up: 
-Contact me links and NavBar set-up.
+Resume Banner Component
