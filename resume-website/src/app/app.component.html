@@ -1,6 +1,15 @@
 <div #parentDiv>
     <mat-toolbar *ngIf="divWidth > 600" class="toolbar" color="primary">
         <mat-toolbar-row>
+            <span class="title">I'm David Hew-wing</span>
+            <img (click)="redirectToGitHub()" src="../assets/img/github-small.png" alt="github">
+            <img (click)="redirectToLinkedIn()" src="../assets/img/linkedin-small.png" alt="linkedin">
+            <span class="route-spacer"></span>
+            <p routerLink="/home" class="route">Home</p>
+            <p routerLink="/resume" class="route">Resume</p>
+            <p class="route">Side Projects</p>
+            <p class="route">About Me</p>
+            <span class="img-spacer"></span>
         </mat-toolbar-row>
     </mat-toolbar>
     <button mat-icon-button *ngIf="divWidth <= 600" [matMenuTriggerFor]="menu">

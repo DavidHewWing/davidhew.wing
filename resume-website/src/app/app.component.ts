@@ -1,4 +1,5 @@
-import { Component, ViewChild, HostListener, ElementRef, OnInit } from '@angular/core';
+import { Component, ViewChild, HostListener, ElementRef, OnInit, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -17,10 +18,20 @@ export class AppComponent implements OnInit {
     }
   }
 
+  constructor(@Inject(DOCUMENT) private document: any) { }
+
   ngOnInit() {
     if (this.parentDiv) {
       this.divWidth = this.parentDiv.nativeElement.clientWidth;
     }
+  }
+
+  redirectToLinkedIn() {
+    this.document.location.href = 'https://www.linkedin.com/in/david-hew-wing-8b4381152/';
+  }
+
+  redirectToGitHub() {
+    this.document.location.href = 'https://github.com/DavidHewWing';
   }
 
 }
