@@ -26,5 +26,8 @@ Color Scheme:
 * Added Home-Page Stuff I know
 * Added Links and NavBar set-up
 
+#### April 2019
+* Added basic layout and wireframes for the resume-page
+
 Next Up: 
-Resume Banner Component
+Color Scheme of the banner component (do we want animated background?)
