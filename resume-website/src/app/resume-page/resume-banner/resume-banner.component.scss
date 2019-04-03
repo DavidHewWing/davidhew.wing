@@ -1,14 +1,44 @@
 
 * {
-    background-color: #E6E6E9;
+    background-color: #CDC9FF;
     margin: 0;
     padding: 0;
     font-family: 'Karla', sans-serif;
 }
 
 .banner-container {
+    position: relative;
     text-align: center;
-    margin: auto 0;
+    height: 50vh;
+}
+
+.greetings {
+    font-size: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+mat-icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+    vertical-align:middle;
+    font-size: 32px;
+    background-color: #EF6461;
+}
+// #EF6461
+// #E4B363
+button {
+    background-color: #EF6461;
+    width: 30vw;
+    color: white;
+    max-width: 500px;
+    font-size: 24px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
 }
 
 h1 {
