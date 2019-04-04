@@ -1,0 +1,37 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+::ng-deep .mat-tab-label-content {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    margin: 0 auto;
+    color: #004577;
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.experience-container {
+    margin-top: 128px;
+}
+
+mat-tab-group {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.shadow {
+    box-shadow: 1px 1px 1px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+@media screen and (max-width: 600px) { /* Specific to this particular image */
+    
+    .experience-container {
+        margin-top: 64;
+    }
+}

@@ -7,6 +7,7 @@
 }
 
 .banner-container {
+    top: 64px;
     position: relative;
     text-align: center;
     height: 50vh;
@@ -33,9 +34,10 @@ mat-icon {
 button {
     background-color: #EF6461;
     width: 30vw;
+    min-width: 300px;
     color: white;
+    font-size: 18px;
     max-width: 500px;
-    font-size: 24px;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
@@ -44,4 +46,21 @@ button {
 h1 {
     color: #3e8bb2;
     font-family: 'Mukta', sans-serif;
+}
+
+@media screen and (max-width: 600px) { /* Specific to this particular image */
+    .banner-container {
+        top: 0;
+    }
+
+    .greetings {
+        margin: 0;
+        width:100vw;
+        font-size: 5vw;
+    }
+
+    button {
+        min-width: 210px;
+    }
+
 }
