@@ -7,7 +7,8 @@ Useful links:
 # Design Questions:
 * Need app-store (ngRx): TBD.
 * Wireframes/Workflows needed?: Definitely.
-* Resume Tab, Homepage Tab, Get to really know me tab
+* Resume Tab, Homepage Tab, Get to really know me tab, (side project tab)
+* I think i should have a side projects tab when I have 6+ completed side projects right now I'm not sure.
 
 Color Scheme:
 * Background: White
@@ -28,6 +29,7 @@ Color Scheme:
 
 #### April 2019
 * Added basic layout and wireframes for the resume-page
+* Added banner still waiting on graphic, and initial of experience tab.
 
 Next Up: 
-Color Scheme of the banner component (do we want animated background?)
+Finish experience and work on statement.
