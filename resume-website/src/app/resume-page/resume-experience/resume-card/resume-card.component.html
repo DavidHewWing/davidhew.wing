@@ -1,0 +1,17 @@
+<div class="card-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{title}}</mat-card-title>
+      <mat-card-subtitle>{{subtitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <div class="content" fxLayout="column" fxLayoutAlign="center center">
+        <img [src]="imgUrl" class="card-image" alt="Photo Relating">
+        <p class="description">
+            {{description}}
+        </p>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
