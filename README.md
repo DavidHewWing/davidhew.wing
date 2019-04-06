@@ -32,4 +32,4 @@ Color Scheme:
 * Added banner still waiting on graphic, and initial of experience tab.
 
 Next Up: 
-Finish experience and work on statement.
+Finished the mobile part for resume-experience.
