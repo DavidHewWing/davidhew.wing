@@ -44,7 +44,12 @@ img {
 @media screen and (max-width: 600px) {
 
     mat-icon {
-       color: #E0DDF7; 
+        font-size: 48px;
+    }
+
+    .expand-button {
+        position: fixed;
+        margin-top: 8px;
     }
 
 }

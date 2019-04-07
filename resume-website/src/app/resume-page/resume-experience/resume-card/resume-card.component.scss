@@ -43,3 +43,18 @@ mat-card-subtitle {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+@media screen and (max-width: 600px) { /* Specific to this particular image */
+    .description {
+        width: 300px;
+    }
+
+    .card-image{
+        width: 325px;
+    }
+
+    .card-container {
+        min-width: 350px;
+    }
+
+}

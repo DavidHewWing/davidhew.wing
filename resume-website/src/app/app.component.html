@@ -12,7 +12,7 @@
             <span class="img-spacer"></span>
         </mat-toolbar-row>
     </mat-toolbar>
-    <button mat-icon-button *ngIf="divWidth <= 600" [matMenuTriggerFor]="menu">
+    <button  [disableRipple]="true" class="expand-button" mat-icon-button *ngIf="divWidth <= 600" [matMenuTriggerFor]="menu">
         <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">

@@ -1,0 +1,8 @@
+<div class="knowledge-container">
+  <div class="title">
+      <h1>Dive into my expertise.</h1>
+  </div>
+  <div class="progress" *ngFor="let bar of bars">
+    <app-resume-progress [value]="bar.value" [imgUrl]="bar.imgUrl"></app-resume-progress>
+  </div>
+</div>
