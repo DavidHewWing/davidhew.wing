@@ -30,6 +30,7 @@ Color Scheme:
 #### April 2019
 * Added basic layout and wireframes for the resume-page
 * Added banner still waiting on graphic, and initial of experience tab.
+* Added resume-experience and resume-progess components
 
 Next Up: 
-Finished the mobile part for resume-experience.
+Add routing to mobile menu button
