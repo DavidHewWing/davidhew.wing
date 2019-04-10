@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
     {path: 'home', loadChildren: '../app/home-page/home-page.module#HomePageModule'},
     {path: 'resume', loadChildren: '../app/resume-page/resume-page.module#ResumePageModule'},
+    {path: 'projects', loadChildren: '../app/projects-page/projects-page.module#ProjectsPageModule'},
     {path: '**', loadChildren: '../app/home-page/home-page.module#HomePageModule'}
 ];
 

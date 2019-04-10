@@ -7,7 +7,8 @@
     top: 64px;
     position: relative;
     text-align: center;
-    color: white;
+    padding-bottom: 48px;
+    background-color: #E6E6E9;
   }
 
 .image {
@@ -46,6 +47,7 @@
 @media screen and (max-width: 600px) { /* Specific to this particular image */
     .card-container {
         top: 0;
+        padding-bottom: 116px;
     }
 
     .image-container {

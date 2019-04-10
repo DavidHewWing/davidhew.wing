@@ -7,17 +7,18 @@
             <span class="route-spacer"></span>
             <p routerLink="/home" class="route">Home</p>
             <p routerLink="/resume" class="route">Resume</p>
-            <p class="route">Side Projects</p>
+            <p routerLink="/projects" class="route">Side Projects</p>
             <p class="route">About Me</p>
             <span class="img-spacer"></span>
         </mat-toolbar-row>
     </mat-toolbar>
-    <button  [disableRipple]="true" class="expand-button" mat-icon-button *ngIf="divWidth <= 600" [matMenuTriggerFor]="menu">
-        <mat-icon>more_vert</mat-icon>
+    <button  [disableRipple]="true" class="expand-button" mat-raised-button *ngIf="divWidth <= 600" [matMenuTriggerFor]="menu" color="primary">
+        Click here to Navigate
     </button>
     <mat-menu #menu="matMenu">
-            <button mat-menu-item>Item 1</button>
-            <button mat-menu-item>Item 2</button>
+            <button routerLink="/home" mat-menu-item>Home</button>
+            <button routerLink="/resume" mat-menu-item>Resume</button>
+            <button routerLink="/projects" mat-menu-item>Projects</button>
     </mat-menu>
 </div>
 <router-outlet></router-outlet>

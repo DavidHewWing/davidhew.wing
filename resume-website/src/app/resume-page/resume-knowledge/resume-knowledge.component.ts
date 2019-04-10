@@ -21,8 +21,8 @@ export class ResumeKnowledgeComponent implements OnInit {
     const gitBar = new Bar(100, '../../../../assets/img/git.svg', 'Fluent');
     const androidBar = new Bar(100, '../../../../assets/img/android.svg', 'Fluent');
     const pythonBar = new Bar(75, '../../../../assets/img/python.svg', 'Advanced');
-    const linuxBar = new Bar(50, '../../../../assets/img/linux.svg', 'Intermediate');
-    const rubyBar = new Bar(50, '../../../../assets/img/ruby.svg', 'Intermediate');
+    const linuxBar = new Bar(50, '../../../../assets/img/linux.svg', 'Working');
+    const rubyBar = new Bar(50, '../../../../assets/img/ruby.svg', 'Working');
 
     this.bars.push(angularBar);
     this.bars.push(javaBar);
