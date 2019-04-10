@@ -31,6 +31,9 @@ Color Scheme:
 * Added basic layout and wireframes for the resume-page
 * Added banner still waiting on graphic, and initial of experience tab.
 * Added resume-experience and resume-progess components
+* Added resume-extras
+* Finished the resume-page
+* Added projects routing
 
 Next Up: 
-Add routing to mobile menu button
+Projects Wireframe
