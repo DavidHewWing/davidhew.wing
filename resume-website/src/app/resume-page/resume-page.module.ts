@@ -10,9 +10,12 @@ import { ResumeExperienceComponent } from './resume-experience/resume-experience
 import { ResumeCardComponent } from './resume-experience/resume-card/resume-card.component';
 import { ResumeKnowledgeComponent } from './resume-knowledge/resume-knowledge.component';
 import { ResumeProgressComponent } from './resume-knowledge/resume-progress/resume-progress.component';
+import { ResumeExtrasComponent } from './resume-extras/resume-extras.component';
 
 @NgModule({
-  declarations: [ResumeBannerComponent, ResumePageComponent, ResumeExperienceComponent, ResumeCardComponent, ResumeKnowledgeComponent, ResumeProgressComponent],
+  declarations: [ResumeBannerComponent, ResumePageComponent, ResumeExperienceComponent, ResumeCardComponent, ResumeKnowledgeComponent,
+     ResumeProgressComponent,
+     ResumeExtrasComponent],
   imports: [
     CommonModule,
     MaterialModule,

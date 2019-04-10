@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 class Bar {
-  constructor(private value: number, private imgUrl: string) {}
+  constructor(private value: number, private imgUrl: string, private description: string) {}
 }
 
 @Component({
@@ -16,13 +16,13 @@ export class ResumeKnowledgeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    const angularBar = new Bar(100, '../../../../assets/img/angular.svg');
-    const javaBar = new Bar(100, '../../../../assets/img/java.svg');
-    const gitBar = new Bar(100, '../../../../assets/img/git.svg');
-    const androidBar = new Bar(100, '../../../../assets/img/android.svg');
-    const pythonBar = new Bar(75, '../../../../assets/img/python.svg');
-    const linuxBar = new Bar(50, '../../../../assets/img/linux.svg');
-    const rubyBar = new Bar(50, '../../../../assets/img/ruby.svg');
+    const angularBar = new Bar(100, '../../../../assets/img/angular.svg', 'Fluent');
+    const javaBar = new Bar(100, '../../../../assets/img/java.svg', 'Fluent');
+    const gitBar = new Bar(100, '../../../../assets/img/git.svg', 'Fluent');
+    const androidBar = new Bar(100, '../../../../assets/img/android.svg', 'Fluent');
+    const pythonBar = new Bar(75, '../../../../assets/img/python.svg', 'Advanced');
+    const linuxBar = new Bar(50, '../../../../assets/img/linux.svg', 'Intermediate');
+    const rubyBar = new Bar(50, '../../../../assets/img/ruby.svg', 'Intermediate');
 
     this.bars.push(angularBar);
     this.bars.push(javaBar);

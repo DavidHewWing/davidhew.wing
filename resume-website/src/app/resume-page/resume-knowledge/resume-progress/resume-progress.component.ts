@@ -9,6 +9,7 @@ export class ResumeProgressComponent implements OnInit {
 
   @Input() value;
   @Input() imgUrl;
+  @Input() description;
 
   constructor() { }
 

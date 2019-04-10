@@ -15,10 +15,6 @@ export class ResumeCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.title);
-    console.log(this.subtitle);
-    console.log(this.imgUrl);
-    console.log(this.description);
   }
 
 }

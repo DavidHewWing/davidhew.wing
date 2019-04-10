@@ -1,0 +1,51 @@
+<div class="extras-container" #parentDiv>
+  <div class="title">
+    <h1>How I improve myself.</h1>
+    <p>
+      <i>"Good, better, best. Never let it rest. Until your good is better and your better is best."</i>
+      ~ Tim Duncan
+    </p>
+  </div>
+  <div class="content">
+    <mat-card>
+      <mat-card-header>
+        <h1>Ultimate Frisbee</h1>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+      <mat-card-content>
+        <div class="description">
+          <p>My first competitive season of Ultimate Frisbee was playing for the Gee-Gees in 2017.
+            <!-- Ultimate Frisbee is a unique sport, generally there is no Referee, thus the fouls and other calls are made by the players.
+              The game relies on the spirit of sportsmanship to succeed. Competitive play is needed, but never placed at a higher standard than -->
+            In many sports players often bully, or harm their opponent to gain an advantage. However, in Ultimate
+            this is never the case. The game relies on the spirit of sportsmanship to played.
+            Embracing the fact that <b>you don't need to bring someone down in order to succeed.</b><br /><br />
+
+            As a beginner in Ultimate, I was at a disadvantage and it was up to me to improve as fast as I could.
+            <b>I couldn't wait for someone to approach me to get better.</b> I needed to ask the stupid questions and to
+            put in the extra work. <br /><br />
+
+            Last year I'd hesitate to say I was great or even good at Ultimate, today I can say with confidence that I
+            am a great Ultimate player.
+            More importantly, <b>Ultimate Frisbee enabled me to become a better person.</b> I tapped into confidence I
+            never had before, gained some extra grit
+            and became a better individual in general. In the future I will continue to get better and hopefully become
+            an instrumental piece at CUMC for Crank Ultimate
+          </p>
+        </div>
+        <mat-grid-list *ngIf="divWidth > 750" cols="2" rowHeight="2:1">
+          <mat-grid-tile><img src="../../../assets/img/ulti-group.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-solo.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-group3.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-group2.jpg"></mat-grid-tile>
+        </mat-grid-list>
+        <mat-grid-list *ngIf="divWidth <= 750" cols="1" rowHeight="2:1">
+          <mat-grid-tile><img src="../../../assets/img/ulti-group.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-solo.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-group3.jpg"></mat-grid-tile>
+          <mat-grid-tile><img src="../../../assets/img/ulti-group2.jpg"></mat-grid-tile>
+        </mat-grid-list>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
