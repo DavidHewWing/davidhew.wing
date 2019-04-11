@@ -1,0 +1,11 @@
+<div class="banner-container">
+  <div class="image-container">
+    <img class="image" src="../../../assets/img/hack.jpg" (load)="showText()" alt="oops">
+  </div>
+  <div *ngIf="displayText" class="title">
+    <b>Come, check out my projects</b>
+  </div>
+  <div *ngIf="displayText" class="subtitle">
+      <i>(Click the GitHub icon at the top)</i>
+  </div>
+</div>
