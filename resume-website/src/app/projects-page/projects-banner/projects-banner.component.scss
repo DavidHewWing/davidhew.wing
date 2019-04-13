@@ -7,7 +7,8 @@
     top: 64px;
     position: relative;
     text-align: center;
-    padding-bottom: 48px;;
+    padding-bottom: 90px;
+    background-color: #F3FFBD;
 }
 
 .image {
@@ -28,14 +29,6 @@
     transform: translate(-50%, -50%);
     font-family: 'Mukta', sans-serif;
 }
-.title:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 88%;
-    padding-top: 0.1vw;
-    border-bottom: 0.4vw solid;
-}
 
 .subtitle {
     font-size: 32px;
@@ -51,7 +44,7 @@
 @media screen and (max-width: 600px) { /* Specific to this particular image */
     .banner-container {
         top: 0px;
-        padding-bottom: 116px;
+        padding-bottom: 150px;
     }
 
     .image-container {
@@ -62,15 +55,23 @@
 
     .image {
         filter: brightness(50%);
+        margin-left: -400px;
     }
 
     .title {
         margin: 0;
-        top:55%;
+        top:40%;
         left: 50%;
         width:100vw;
-        font-size: 20vw;
-        line-height: 12.5vh;
+        min-width: 0;
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        top: 55%;
+        min-width: 0px;
+        width: 100vw;
     }
 
   }

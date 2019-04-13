@@ -1,0 +1,13 @@
+<div [ngStyle]="{'background-color': color}" class="project-container">
+  <div class="title">
+      <h1>"{{title}}"</h1>
+      <h2>{{date}}</h2>
+      <p>{{description}}
+      </p>
+      <br/>
+      <p>
+        <i>{{techUsed}}</i>
+      </p>
+  </div>
+  <button (click)="redirectToRepo()" color="primary" mat-raised-button>Check out the source code!</button>
+</div>

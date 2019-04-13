@@ -1,4 +1,7 @@
-
-  <div style="overflow: hidden; height: 100vh;">
+<div style="overflow: hidden; height: 100vh;">
     <app-projects-banner></app-projects-banner>
+</div>
+<div *ngFor="let project of projects">
+    <app-project [title]="project.title" [description]="project.description"
+    [color]="project.color" [linkUrl]="project.linkUrl" [techUsed]="project.techUsed" [date]="project.date"></app-project>
 </div>

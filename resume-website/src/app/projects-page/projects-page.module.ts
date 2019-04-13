@@ -5,9 +5,10 @@ import { MaterialModule } from 'src/presentation/material-module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ProjectsPageRoutingModule } from './projects-page-routing.module';
 import { ProjectsBannerComponent } from './projects-banner/projects-banner.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
-  declarations: [ProjectsPageComponent, ProjectsBannerComponent],
+  declarations: [ProjectsPageComponent, ProjectsBannerComponent, ProjectComponent],
   imports: [
     MaterialModule,
     CommonModule,
