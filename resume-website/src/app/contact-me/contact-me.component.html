@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>Let's get in touch!</h1>
+<form [formGroup]="mailForm" (ngSubmit)="onSubmit()">
+  <div class="content" mat-dialog-content>
+    <p>Contact me through LinkedIn or Email me using the form!</p>
+    <div class="input">
+      <mat-form-field>
+        <input formControlName="email" matInput placeholder="Email">
+      </mat-form-field>
+    </div>
+    <div class="input">
+      <mat-form-field>
+        <input formControlName="name" matInput placeholder="Full Name">
+      </mat-form-field>
+    </div>
+    <div class="input">
+      <mat-form-field>
+        <textarea formControlName="message" matInput placeholder="Your Message..."></textarea>
+        <mat-hint>Keep it short and sweet I'll follow up!</mat-hint>
+      </mat-form-field>
+    </div>
+  </div>
+  <div mat-dialog-actions>
+      <button type="submit" [disabled]="!mailForm.valid" mat-button>Submit</button>
+  </div>
+</form>

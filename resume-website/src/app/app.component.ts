@@ -1,5 +1,8 @@
 import { Component, ViewChild, HostListener, ElementRef, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
+import { MatDialog, MatDialogConfig } from '@angular/material';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +21,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  constructor(@Inject(DOCUMENT) private document: any) { }
+  constructor(@Inject(DOCUMENT) private document: any, public dialog: MatDialog) { }
 
   ngOnInit() {
     if (this.parentDiv) {
@@ -34,4 +37,15 @@ export class AppComponent implements OnInit {
     this.document.location.href = 'https://github.com/DavidHewWing';
   }
 
+  openDialog(): void {
+
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.autoFocus = true;
+
+    const dialogRef = this.dialog.open(ContactMeComponent, dialogConfig);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
 }
