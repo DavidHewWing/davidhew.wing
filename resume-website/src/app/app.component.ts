@@ -45,7 +45,6 @@ export class AppComponent implements OnInit {
     const dialogRef = this.dialog.open(ContactMeComponent, dialogConfig);
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
     });
   }
 }

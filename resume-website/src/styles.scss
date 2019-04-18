@@ -23,3 +23,11 @@ body {
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
 }
+
+.snackbar-email {
+    background-color: #3F51B5;
+}
+
+.snackbar-email button {
+    color: white;
+}

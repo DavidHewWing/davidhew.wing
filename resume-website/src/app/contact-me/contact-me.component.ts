@@ -1,12 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { MatDialogRef, MAT_DIALOG_DATA, MatSnackBar } from '@angular/material';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-
-export interface DialogData {
-  animal: string;
-  name: string;
-}
-
 
 @Component({
   selector: 'app-contact-me',
@@ -15,33 +9,21 @@ export interface DialogData {
 })
 export class ContactMeComponent implements OnInit {
 
-  mailForm: FormGroup;
-
-  constructor(public dialogRef: MatDialogRef<ContactMeComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+  constructor(public dialogRef: MatDialogRef<ContactMeComponent>, private snackBar: MatSnackBar) {}
 
   onNoClick(): void {
-    this.dialogRef.close();
-  }
-  ngOnInit() {
-    this.mailForm = new FormGroup({
-      email: new FormControl('', [
-        Validators.required,
-        Validators.email,
-      ]),
-      name: new FormControl('', [
-        Validators.required,
-        Validators.minLength(0),
-      ]),
-      message: new FormControl('', [
-        Validators.required,
-        Validators.minLength(0),
-      ])
-    });
   }
 
-  onSubmit() {
-    console.log(this.mailForm.value);
+  ngOnInit() {
+  }
+
+  email() {
+    this.snackBar.open('Email has also been copied to your clipboard!', 'Close', {
+      duration: 10000,
+      panelClass: ['snackbar-email']
+    });
+    location.href = 'mailto:dhew67@gmail.com';
+    this.dialogRef.close();
   }
 
 }

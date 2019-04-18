@@ -6,6 +6,8 @@ import { MaterialModule } from 'src/presentation/material-module';
 import { AppRoutingModule } from '../routing/app-routing.module';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ClipboardModule } from 'ngx-clipboard';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactMeComponent
   ],
   imports: [
+    ClipboardModule,
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
