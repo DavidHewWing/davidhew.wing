@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 class Card {
-  constructor(private title: string, private subtitle: string, private imgUrl: string, private description: string) {}
+  constructor(public title: string, public subtitle: string, public imgUrl: string, public description: string) {}
 }
 
 @Component({

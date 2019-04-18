@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 class Bar {
-  constructor(private value: number, private imgUrl: string, private description: string) {}
+  constructor(public value: number, public imgUrl: string, public description: string) {}
 }
 
 @Component({

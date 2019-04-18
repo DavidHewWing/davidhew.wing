@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 class Project {
-  constructor(private title: string, private description: string, private linkUrl: string, private techUsed: string,
-    private color: string, private date: string) { }
+  constructor(public title: string, public description: string, public linkUrl: string, public techUsed: string,
+    public color: string, public date: string) { }
 }
 
 @Component({
