@@ -19,14 +19,14 @@ export class ResumeExperienceComponent implements OnInit {
   ngOnInit() {
     const uottawaCard = new Card('University of Ottawa',
      'Second-Year Software Engineering:  2017-Current',
-     '../../../assets/img/uottawa.jpg',
+     './assets/img/uottawa.jpg',
      'Enrolled at uOttawa Software Engineering in 2017, and currently entering my fourth study term. My phenomenal professors are ' +
      'pushing me to be more innovative and become a better problem solver. My experience in the uOttawa GeeGees Ultimate Frisbee Team ' +
      'inspires me to be a great leader and teaches me to always strive to be better. Most importantly uOttawa helped me to discover' +
      ' my passion for Software Engineering.');
     const cfiaCard = new Card('Canadian Food Insepction Agency',
     'Android Engineer Intern: May 2018 - September 2018. Ottawa, Ontario',
-    '../../../assets/img/canada.jpg',
+    './assets/img/canada.jpg',
     'Working at CFIA was my first experience working for the public sector. Showing how important a work-culture in which everyone is not' +
     ' afraid to speak-up is. This was also the first time I experienced how my work can directly change the world. The application' +
     ' I helped developed is having a direct impact on many CFIA inspectors and as a result, a direct impact of many people with fatal' +
@@ -36,7 +36,7 @@ export class ResumeExperienceComponent implements OnInit {
     );
     const jsiCard = new Card('Jatom System Inc.',
     'Software Developer Intern: Jan 2019 - May 2019. Kanata, Ontario',
-    '../../../assets/img/jsi-building.jpg',
+    './assets/img/jsi-building.jpg',
     'JSI Telecom was a great gateway into the software engineering professionalism world. I practiced the basic concepts of AGILE' +
     ' which is much more in depth and though out then I once thought. JSI was a customer-driven company, I experienced' +
     ' a culture in which was welcoming to new customers and dependable to old customers, showing me that empathy and understanding' +
