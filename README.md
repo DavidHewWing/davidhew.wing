@@ -36,6 +36,7 @@ Color Scheme:
 * Added resume-extras
 * Finished the resume-page
 * Added projects routing
+* Finished Project
 
 Next Up: 
-Projects Wireframe
+Update info as it comes.
