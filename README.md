@@ -2,6 +2,10 @@ This will be a website resume website. README = wiki b/c I have goldfish brain, 
 
 IMPORTANT: To continue development get changes from this branch commit https://github.com/DavidHewWing/davidhew.wing/commit/9be1d035137c9e8d9ce8c2a25db32ca0164bdb45
 
+To deploy you files you must use github pages and following this command:
+> ng build --prod --base-href https://davidhewwing.io/ 
+> ngh
+
 Useful links:
 * Readme cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * ngRx Best Practices: https://itnext.io/ngrx-best-practices-for-enterprise-angular-applications-6f00bcdf36d7?gi=1e59f1c559cb
