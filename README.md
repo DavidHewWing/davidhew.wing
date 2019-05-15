@@ -1,10 +1,13 @@
 This will be a website resume website. README = wiki b/c I have goldfish brain, and I'm poor :(.
 
-IMPORTANT: To continue development get changes from this branch commit https://github.com/DavidHewWing/davidhew.wing/commit/9be1d035137c9e8d9ce8c2a25db32ca0164bdb45
+https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 
 To deploy you files you must use github pages and following this command:
-> ng build --prod --base-href https://davidhewwing.io/ 
+> ng build --prod --base-href=https://davidhewwing.io/ 
+
 > ngh
+
+> update it repo settings
 
 Useful links:
 * Readme cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
