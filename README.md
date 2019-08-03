@@ -45,5 +45,7 @@ Color Scheme:
 * Added projects routing
 * Finished Project
 
-Next Up: 
-Update info as it comes.
+#### August 2019
+* Change home-page banner picture
+* Re-do side-project page
+* Get the screen shots of side projects.
