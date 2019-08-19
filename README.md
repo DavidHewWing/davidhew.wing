@@ -1,13 +1,21 @@
 This will be a website resume website. README = wiki b/c I have goldfish brain, and I'm poor :(.
 
+## What I need to do now.
+* Fix my ugly pics to better/cleaner
+* Update to some ES6 features
+* Fix the entire side-projects page (pictures, colors, banner, everything!)
+
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 
 To deploy you files you must use github pages and following this command:
+
+```
 > ng build --prod --base-href=https://davidhewwing.io/ 
 
 > ngh
 
 > update it repo settings
+```
 
 Useful links:
 * Readme cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
