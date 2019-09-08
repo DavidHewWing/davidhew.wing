@@ -1,5 +1,7 @@
 This will be a website resume website. README = wiki b/c I have goldfish brain, and I'm poor :(.
 
+** I'm updating the home page banner **
+
 ## What I need to do now.
 * Fix my ugly pics to better/cleaner
 * Update to some ES6 features
