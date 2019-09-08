@@ -1,0 +1,46 @@
+.grid2x2 {
+  height: 100vh;
+  width: 100vw;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid2x2>div {
+  display: flex;
+  flex-basis: calc(50%);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid2x2>div>div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.resume {
+  background-color: red;
+}
+
+.projects {
+  background-color: orange;
+}
+
+.head {
+  background-color: purple;
+}
+
+.contact {
+  background-color: grey;
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+}
