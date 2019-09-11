@@ -15,15 +15,15 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
 
     const options = {
-      strings: ['', 'Innovation.', 'Discovery.'],
+      strings: ['Developer', 'Athlete', 'Artist'],
       typeSpeed: 100,
-      backSpeed: 100,
+      backSpeed: 75,
       showCursor: true,
       cursorChar: '|',
       loop: true
      };
  
-    const typed = new Typed('.typed-element', options);
+    const typed = new Typed('#typed-element', options);
   }
 
 }
