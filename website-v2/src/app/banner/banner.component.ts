@@ -15,7 +15,7 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
 
     const options = {
-      strings: ['Developer', 'Athlete', 'Artist'],
+      strings: ['Developer', 'Athlete', 'Foodie', 'Dog Lover'],
       typeSpeed: 100,
       backSpeed: 75,
       showCursor: true,
